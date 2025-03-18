@@ -1,0 +1,12 @@
+[package]
+name = "todo"
+version = "0.1.0-beta"
+edition = "2024"
+
+[dependencies]
+
+[workspace]
+members = [
+    "cli",
+    "lib"
+]
