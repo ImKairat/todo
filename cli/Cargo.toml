@@ -4,3 +4,6 @@ version = "0.1.0-beta"
 edition = "2024"
 
 [dependencies]
+lib = {path ="../lib"}
+clap = {version = "4.5.32", features = ["derive"]}
+owo-colors = "4.2.0"
